@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%;
+}
+.outer{
+    
+    background-color: rgb(197 193 197);
+    margin: 1% 5% 20%;
+
+}
+h1, h3 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: .8rem;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: revert;
+    padding:  0rem 1.5rem ;
+    width: 100%;
+}
+.container1{
+   
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.box{
+    margin: 0% 3%;
+    position: relative;
+    text-align: center;
+    padding: 1.5rem 1.2rem;
+    width: 33%;
+}
+.icon{
+    font-display: center;
+    color: rgb(238, 21, 21);
+}
+
+.btn{
+    background-color: rgb(238, 21, 21);
+    color:white;
+    margin-bottom: 5rem ;
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-40%, 0%);
+    padding: 1.5rem;
+}
+@media(max-width:998rem)
+{
+    html{
+        font-size: 60%;
+    }
+}
+@media(max-width:768rem){
+    html{
+
+    
+    font-size : 45%;
+    }
+}
